@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73cf9cf7-e102-4ba9-85e5-59632d3203ad" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pacificu/cs/cs260/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/pacificu/cs/cs260/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/pacificu/cs/cs260/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/pacificu/cs/cs260/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="73cf9cf7-e102-4ba9-85e5-59632d3203ad" name="Changes" comment="Basic functionality working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659028273480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic functionality working">
+      <created>1659032226050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659032226050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +81,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Basic functionality working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic functionality working" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/pacificu/cs/cs260/main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/pacificu/cs/cs260/main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

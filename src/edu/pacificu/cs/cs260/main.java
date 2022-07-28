@@ -8,6 +8,7 @@ public class main implements Callbacks {
         Runner mTheSystem = new Runner(yourCode);
 
         mTheSystem.start();
+        yourCode.notACallBack(260);
 
         try {
             Thread.sleep(30* 1000);
@@ -25,5 +26,10 @@ public class main implements Callbacks {
     @Override
     public void receiveRandomInt(int value) {
         System.err.println("Receive int " + value);
+    }
+
+    public void notACallBack(int value)
+    {
+        System.err.println("notACallBack: Receive int " + value);
     }
 }
