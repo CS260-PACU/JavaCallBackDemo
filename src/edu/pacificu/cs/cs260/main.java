@@ -1,11 +1,16 @@
 package edu.pacificu.cs.cs260;
 
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class main implements Callbacks {
 
     public static void main(String [] args)
     {
         main yourCode = new main();
         Runner mTheSystem = new Runner(yourCode);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
 
         mTheSystem.start();
         yourCode.notACallBack(260);
@@ -15,6 +20,8 @@ public class main implements Callbacks {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        executor.execute( () -> { System.err.println("THREAD");
+            });
         mTheSystem.end();
     }
 
