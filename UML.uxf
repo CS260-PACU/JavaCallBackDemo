@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>64</y>
+      <w>400</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Callbacks
+--
+--
++receiveRandomString(String) : void
++receiveRandomInt(int) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>368</y>
+      <w>400</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>main
+--
+--
++receiveRandomString(String) : void
++receiveRandomInt(int) : void
+
+_+main(String[]) : void_
+
++notACallBack(int) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>288</y>
+      <w>48</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>576</x>
+      <y>304</y>
+      <w>336</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Runner
+--
+-mTheCallbacks : Callbacks
+-mStop : boolean
+-mRandom : Random
+-mStrings : String[]
+
+--
++Runner(Callbacks)
+
++run() : void
++end() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>576</x>
+      <y>64</y>
+      <w>336</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>jva.lang.Thread
+--
+
+--
++run() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>176</y>
+      <w>48</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>
