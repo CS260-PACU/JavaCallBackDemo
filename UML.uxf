@@ -77,7 +77,7 @@ _+main(String[]) : void_
       <w>336</w>
       <h>128</h>
     </coordinates>
-    <panel_attributes>jva.lang.Thread
+    <panel_attributes>java.lang.Thread
 --
 
 --
